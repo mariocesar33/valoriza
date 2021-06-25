@@ -8,3 +8,6 @@
 
 #para criar as minhas migrations
 --> yarn typeorm  migration:create -n CreateUsers
+
+#para rodar as minhas migrations
+--> yarn typeorm migration:run
